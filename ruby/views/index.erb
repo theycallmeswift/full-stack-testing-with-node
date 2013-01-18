@@ -1,0 +1,31 @@
+<div id="main">
+  <div class="row" id="header">
+    <div class="twelve columns">
+      <div class="center"><h1>A List of Hackers</h1></div>
+      <hr />
+    </div>
+  </div>
+  <div class="row">
+    <div class="seven columns">
+      <div id="users"></div>
+    </div>
+    <div class="five columns" id="form_holder">
+      <div class="panel">
+        <h2>Add Hacker</h2>
+        <hr />
+        <form action="/api/users" method="POST">
+          <label>Name</label>
+          <input type="text" name="name" id="name" />
+
+          <label>Job </label>
+          <input type="text" name="job" id="job" />
+
+          <label>Twitter Handle</label>
+          <input type="text" name="twitter" id="twitter" />
+
+          <input type="submit" id="submit" class="button success" value="Add to List" />
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

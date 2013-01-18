@@ -1,0 +1,38 @@
+.center {
+  text-align: center;
+}
+
+.user {
+  border-bottom: 1px solid #eee;
+  display: block;
+  position: relative;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.user .delete {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  color: red;
+}
+
+.user .number h1 {
+  font-size: 88px;
+}
+
+.user h2 {
+  margin-bottom: 0px;
+}
+
+.user h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.user .gravatar {
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  float: left;
+  margin-right: 20px;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ruby_testing_example",
+  "version": "0.0.0",
+  "description": "An example of a ruby app tested in Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber.js"
+  },
+  "repository": "",
+  "keywords": [
+    "Node",
+    "Ruby",
+    "Test"
+  ],
+  "author": "Swift <swift@sendgrid.com>",
+  "license": "Beerware",
+  "dependencies": {
+    "zombie": "~1.4.1",
+    "cucumber": "~0.3.0",
+    "nock": "~0.14.3",
+    "request": "~2.12.0",
+    "async": "~0.1.22"
+  }
+}

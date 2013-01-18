@@ -1,0 +1,21 @@
+{
+  "name": "csharp-integration-test-example",
+  "version": "0.0.0",
+  "description": "A sample C# app with node.js tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber.js"
+  },
+  "repository": "",
+  "keywords": [
+    "C#",
+    "Node",
+    "Testing"
+  ],
+  "author": "Swift <swift@sendgrid.com>",
+  "license": "Beerware",
+  "dependencies": {
+    "zombie": "~1.4.1",
+    "cucumber": "~0.3.0"
+  }
+}
